@@ -7,6 +7,6 @@ print(lists[::-2])
 
  #to convert lists into tuple
 my_tuple =tuple(lists)
-print(my_tuple)
+print(my_tuple)   
 
 
