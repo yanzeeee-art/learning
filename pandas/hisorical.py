@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt 
 import numpy as np 
 
-x = np.random.normal(170, 30, 200)
+x = np.array([10, 20, 30, 40, 50])
 
-plt.hist(x)
+plt.pie(x)
 plt.show()
