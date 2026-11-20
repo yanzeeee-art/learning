@@ -1,0 +1,10 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+if age < 18:
+    print("Sorry! You are not eligible for voter registration.")
+elif age >= 18:
+    print("You are eligible for voter registration.")
+    print("Welcome", name)
+else:
+    print("Invalid information.")
